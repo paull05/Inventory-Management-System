@@ -1,5 +1,10 @@
 body {
     background-image: url(34ec78ae0ab34927ea8e9cf17c713ba5.jpeg);
+    background-position: center;
+}
+.header-title {
+    background: linear-gradient(45deg, #4ade80, #22d3ee);
+    align-items: center;
 }
 
 /* <style>
