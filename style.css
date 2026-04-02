@@ -1,29 +1,31 @@
 body {
-    background-image: url(34ec78ae0ab34927ea8e9cf17c713ba5.jpeg);
-    background-position: center;
+    /* background-image: url(34ec78ae0ab34927ea8e9cf17c713ba5.jpeg); */
+    /* background-position: center; */
+    background-color: rgb(220, 213, 213);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+    min-height: 100vh;
 }
 .header-title {
-    background: linear-gradient(45deg, #4ade80, #22d3ee);
+    /* background: linear-gradient(45deg, #4ade80, #22d3ee); */
     align-items: center;
 }
 
-/* <style>
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        body {
+           
+
+        /* body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
             min-height: 100vh;
-        }
+        } */
 
         
         .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
             padding: 2rem;
             box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+            border-radius: 20px;
         }
 
         .header-content {
@@ -133,6 +135,10 @@ body {
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
+            border: solid;
+            border-color: rgb(168, 159, 159); 
+            /* border-color: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%); */
+            
         }
 
         .stat-card:hover {
@@ -260,6 +266,9 @@ body {
             border-radius: 20px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
             overflow: hidden;
+            border: solid;
+            border-color: rgb(168, 159, 159);
+            /* border-left-color: #35485c; */
         }
 
         table {
@@ -601,4 +610,3 @@ body {
                 padding: 0.8rem;
             }
         }
-    </style>*/

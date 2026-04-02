@@ -151,7 +151,7 @@
         </div>
     </div>
 
-    <!-- <script>
+     <script>
         // ========================= JAVASCRIPT CODE =========================
         
         // Initial inventory data
@@ -292,7 +292,7 @@
                         <td><span class="sku">${item.sku}</span></td>
                         <td>${item.category}</td>
                         <td><strong>${item.quantity}</strong></td>
-                        <td><strong>$${item.price.toFixed(2)}</strong></td>
+                        <td><strong>₱${item.price.toFixed(2)}</strong></td>
                         <td><span class="badge ${status.class}">${status.label}</span></td>
                         <td>${item.supplier}</td>
                         <td>
@@ -314,7 +314,7 @@
             const outOfStockItems = inventory.filter(item => item.quantity === 0).length;
 
             document.getElementById('totalProducts').textContent = totalProducts.toLocaleString();
-            document.getElementById('totalValue').textContent = '$' + totalValue.toLocaleString('en-US', {
+            document.getElementById('totalValue').textContent = '₱' + totalValue.toLocaleString('en-US', {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2
             });
@@ -424,7 +424,7 @@
                 item.sku,
                 item.category,
                 item.quantity,
-                `$${item.price.toFixed(2)}`,
+                `₱${item.price.toFixed(2)}`,
                 item.supplier
             ]);
 
@@ -442,6 +442,6 @@
                 closeModal();
             }
         });
-    </script> -->
+    </script> 
 </body>
 </html>
